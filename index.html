@@ -11,7 +11,7 @@
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
     <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
     <script src="https://kit.fontawesome.com/3612440e41.js"></script>
-	<link href="style.css" rel="stylesheet">
+	<link href="assets/style.css" rel="stylesheet">
 	<link rel="stylesheet" href="https://m.w3newbie.com/you-tube.css">
 </head>
 <body>
@@ -52,6 +52,23 @@
     </nav>
 
     <!-- Image Slider -->
-    
+    <div id="slides" class="carousel slide" data-ride="carousel">
+        <ul class="carousel-indicators">
+            <li data-target="#slides" data-slide-to="0" class="active"></li>
+            <li data-target="#slides" data-slide-to="1"></li>
+            <li data-target="#slides" data-slide-to="2"></li>
+        </ul>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="./assets/images/coding-job.png">
+                <div class="carousel-caption">
+                    <h1 class="display-2">Welcome</h1>
+                    <h3></h3>
+                    <button type="button" class="btn btn-outline-light btn-lg">Portfolio</button>
+                    <button type="button" class="btn btn-primary btn-lg">Projects</button>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
