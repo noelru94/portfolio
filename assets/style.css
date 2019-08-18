@@ -6,18 +6,149 @@ html,body {
     font-family: 'Poppins', sans-serif;
     color: #222;
 }
-
-
+/*--- Navigation ---*/
+.navbar {
+    padding: .8rem;
+}
+.navbar-nav li {
+    padding-right:  20px;
+}
+.nav-link {
+    font-size: 1.1em !important;
+}
 .navbar-brand h1 {
     font-size: 1.2em;
 }
+/*--- Image slider 1 ---*/
 .carousel-inner img {
     width: 100%;
-    height: 100%;
+    height: 20%;
+}
+.carousel-caption {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.carousel-caption h1 {
+    font-size: 500%;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 15px #000;
+}
+.carousel-caption h3 {
+    font-size: 200%;
+    font-weight: 500;
+    text-shadow: 1px 1px 10px #000;
+}
+.btn-primary {
+    background-color: #6648b1;
+    border: 1px solid #6648b1;
+  }
+  .btn-primary:hover{
+    background-color: #563d7c;
+    border: 1px solid #563d7c;
+  }
+  .padding {
+      padding-bottom:2rem;
+  }
+  .welcome {
+    width: 75%;
+    margin: 0 auto;
+    padding-top: 2rem;
+  }
+  .welcome hr {
+    border-top: 2px solid #b4b4b4;
+    width: 95%;
+    margin-top: .3rem;
+    margin-bottom: 1rem;
+  }
+
+
+/*--- skills icons ---*/
+.fa-code {
+    color: #e34f26;
+}
+.fa-bold {
+    color: #7952b3
+}
+.fa-css3 {
+    color: #2277ff;
+}
+.fa-js {
+    color: #f5de19;
+}
+.fa-node {
+    color: #7fb602;
+}
+.fa-database{
+    color: #f5de19;
 }
 
+.fa-code,.fa-bold,.fa-css3,.fa-js,.fa-node,.fa-database {
+    font-size: 4em;
+    margin: 1rem;
+}
+.section-title{
+    text-align: center;
+    font-size: 3em;
+    padding-bottom: 1.5em;
+}
+/*--- project section ---*/
+.project-title{
+    padding-bottom: 1.25em;
+    text-decoration: underline;
+}
+/*--- liri image slider ---*/
 
+.liri-carousel-caption {
+    position: absolute;
+    top: 80%;
+    left: 40%;
+    transform: translateY(-50%);
+    transform: translateX()(-50%);
+}
 
+#liri-code {
+    color: white;
+    text-decoration-style: none;
+}
+#liri-code:hover{
+    color: black;
+    text-decoration-style: none;
+}
+
+/*-- connect --*/
+.gif {
+    max-width: 100%;
+  }
+  .social a {
+    font-size: 4.5em;
+    padding: 3rem;
+  }
+  .fa-github-square{
+    color: black;
+}
+
+.fa-linkedin{
+    color: #0074b2;
+}
+.fa-stack-overflow{
+    color: #ed7d23;
+}
+
+  .fa-google-plus-g {
+    color: #dd4b39;
+  }
+
+  .fa-youtube {
+    color: #bb0000;
+  }
+  .fa-facebook:hover,
+  .fa-twitter:hover,
+  .fa-google-plus-g:hover,
+  .fa-instagram:hover,
+  .fa-youtube:hover {
+    color: #d5d5d5;
+  }
 
 
 
